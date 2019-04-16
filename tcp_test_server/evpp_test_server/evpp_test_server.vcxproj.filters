@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\nt_lib\NT_MANAGER_SVR.cpp" />
+    <ClCompile Include="..\nt_lib\NT_MSG_Pool.cpp" />
+    <ClCompile Include="..\nt_lib\NT_TCPConn.cpp" />
+    <ClCompile Include="..\nt_lib\NT_TCPServer.cpp" />
+    <ClCompile Include="bussiness_logic.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\nt_lib\NT_DEFINE.h" />
+    <ClInclude Include="..\nt_lib\NT_MANAGER_SVR.h" />
+    <ClInclude Include="..\nt_lib\NT_MSG_Pool.h" />
+    <ClInclude Include="..\nt_lib\NT_TCPConn.h" />
+    <ClInclude Include="..\nt_lib\NT_TCPServer.h" />
+    <ClInclude Include="bussiness_logic.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+﻿  Validating sources
+  Copying sources remotely to '54.180.95.1'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  NT_MANAGER_SVR.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+  NT_MSG_Pool.cpp
+  NT_TCPConn.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+  NT_TCPServer.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+  bussiness_logic.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+  main.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\evpp_test_server\..\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+  Linking objects
+  evpp_test_server.vcxproj -> C:\Users\JOO\Documents\evpp-bmt\tcp_test_server\evpp_test_server\bin\x64\Debug\evpp_test_server.out
