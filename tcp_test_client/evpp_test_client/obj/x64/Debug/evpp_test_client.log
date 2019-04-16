@@ -1,0 +1,44 @@
+﻿  Cleaning remote project directory
+  Validating sources
+  Copying sources remotely to '54.180.95.1'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  NT_MANAGER_CLIENT.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_MANAGER_CLIENT.cpp(128,49): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_MANAGER_CLIENT.cpp(124,6): warning : unused variable ‘send_byte’ [-Wunused-variable]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_MANAGER_CLIENT.cpp(124,6): warning :   int send_byte(0);
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_MANAGER_CLIENT.cpp(124,6): warning :       ^~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_MANAGER_CLIENT.cpp(185,22): warning : conversion to ‘int’ from ‘std::map<unsigned char, CLIENT*>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+  NT_MSG_Pool.cpp
+  NT_TCPClient.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+  NT_TCPConn.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+  bussiness_logic.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+  main.cpp
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(120,25): warning : ‘NT_TCPConn::_conn’ will be initialized after [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(116,16): warning : ‘const uint8_t NT_TCPConn::_remote_id’ [-Wreorder]
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(116,16): warning :   const uint8_t _remote_id;
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(116,16): warning :                 ^~~~~~~~~~
+C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\evpp_test_client\..\nt_lib\NT_TCPConn.h(17,2): warning : when initialized here [-Wreorder]
+  Linking objects
+  evpp_test_client.vcxproj -> C:\Users\JOO\Documents\evpp-bmt\tcp_test_client\evpp_test_client\bin\x64\Debug\evpp_test_client.out
